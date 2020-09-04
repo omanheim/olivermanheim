@@ -17,7 +17,7 @@ export const resumeItems: ResumeItem[] = [
     description: [
       "Hired as employee #1 of VC-funded startup (YC W19), designing and building consumer travel app for trip planning and itinerary collaboration.",
       "Critical in design, implementation, and launch of mobile app; naming and branding of product, and fullstack engineering across product surfaces.",
-      "Active in interviewing, hiring, and mentoring of new employees; currently managing 2 engineers on the team",
+      "Active in interviewing, hiring, and mentoring of new employees; currently managing 2 engineers on the team.",
     ],
   },
   {
