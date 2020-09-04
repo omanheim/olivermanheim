@@ -1,0 +1,79 @@
+@import './Styles.scss';
+
+.NavBar {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.NavBar__nav {
+  transition: transform 0.2s ease-out, color 0.3s;
+  list-style: none;
+  text-align: right;
+  margin: 0 0 24px 0;
+  padding: 0 16px 2px 0px;
+  background-color: transparent;
+  border: none;
+  line-height: 0.9em;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: $primary;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+
+  &:hover {
+    transform: translateX(-4px) scale(0.95);
+  }
+
+  &:focus {
+    color: darken($primary, 25%)
+  }
+}
+.NavBar__selected {
+  text-decoration: line-through;
+}
+.NavBar__inverted .NavBar__nav {
+  color: $offwhite;
+
+  &:focus {
+    color: darken($offwhite, 20%)
+  }
+}
+.NavBar__nav:focus {
+  outline: none;
+}
+@media only screen and (max-width: 768px) {
+  .NavBar {
+    left: 0;
+    top: 0;
+    right: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 12px 8px;
+    background-color: $primary;
+  }
+  .NavBar__inverted {
+    background-color: $offwhite;
+  }
+  .NavBar__nav {
+    color: $offwhite;
+    padding: 0;
+    margin: 0px 8px;
+    font-size: 12px;
+
+    &:focus {
+      color: darken($offwhite, 20%)
+    }
+  }
+  .NavBar__inverted .NavBar__nav {
+    color: $primary;
+
+    &:focus {
+      color: darken($primary, 25%)
+    }
+  }
+}

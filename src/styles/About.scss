@@ -1,0 +1,38 @@
+@import './Styles';
+
+.About {
+  transition: opacity 0.4s ease-in;
+  opacity: 0;
+  text-align: left;
+  margin: 16px;
+  color: $secondary;
+  max-width: 50%;
+  line-height: 1.2em;
+}
+@media only screen and (max-width: 1200px) {
+  .About {
+    max-width: 75%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .About {
+    max-width: 100%;
+    margin: 0;
+    padding: 56px 32px 16px 16px;
+    font-size: 12px;
+    height: 80%;
+    overflow: scroll;
+  }
+}
+.About__delayed {
+  opacity: 1;
+}
+.About__link {
+  transition: color 0.1s ease-in-out;
+  color: darken($secondary, 25%);
+
+  &:hover {
+    text-decoration: none;
+    color: lighten($secondary, 25%);
+  }
+}

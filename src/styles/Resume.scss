@@ -1,0 +1,285 @@
+@import './Styles';
+
+.Resume {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-left: 30%;
+  padding-right: 20%;
+  color: $offwhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 25;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  overflow: hidden;
+}
+.Resume__buttons {
+  display: flex;
+  flex-direction: column;
+  color: $offwhite;
+}
+.Resume__arrows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 14px;
+}
+.Resume__arrow {
+  transition: opacity 0.3s ease-out, transform 0.2s ease-in-out;
+  opacity: 1;
+  background-color: transparent;
+  border: none;
+  color: $offwhite;
+
+  &:not(.Resume__arrowDisabled) {
+    cursor: pointer;
+  }
+
+  &:not(.Resume__arrowDisabled):hover {
+    transform: scale(1.1);
+  }
+
+  &:not(.Resume__arrowDisabled):focus {
+    outline: none;
+    color: darken($offwhite, 5%);
+  }
+}
+.Resume__arrowClicked {
+  animation: pulse 0.3s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.Resume__arrowDisabled {
+  opacity: 0.3;
+}
+.Resume__line {
+  height: 100%;
+  width: 1px;
+  background-color: $offwhite;
+}
+.Resume__inner {
+  transition: margin-top 0.6s cubic-bezier(0.37, 0.55, 0.46, 0.9);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+  padding-left: 8px;
+  margin-left: -8px;
+  text-align: left;
+}
+.Resume__spacer {
+  height: 40px;
+  min-height: 40px;
+}
+.Resume__item {
+  transition: opacity 0.8s;
+  position: relative;
+  padding-left: 40px;
+  height: 90px;
+  min-height: 90px;
+  opacity: 0;
+}
+.Resume__itemVisible {
+  opacity: 1;
+}
+.Resume__company {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: lowercase;
+  line-height: 1.2;
+}
+.Resume__position {
+  font-size: 14px;
+  text-transform: lowercase;
+}
+.Resume__timeframe {
+  font-weight: light;
+  text-transform: lowercase;
+}
+.Resume__location {
+  text-transform: lowercase;
+}
+.Resume__subheading {
+  opacity: 0.8;
+  line-height: 1;
+}
+.Resume__description {
+  font-size: 14px;
+  position: absolute;
+  margin-top: 16px;
+}
+.Resume__description ul {
+  padding-left: 16px;
+  list-style-type: square;
+}
+.Resume__description li {
+  transition: opacity 0.2s ease-in-out;
+  margin-top: 4px;
+  line-height: 1.3;
+  opacity: 0;
+}
+.Resume__itemVisible .Resume__description li {
+  transition: opacity 0.6s 0.5s ease-in-out;
+  opacity: 1;
+}
+.Resume__itemVisible .Resume__description li:nth-child(2) {
+  transition-delay: 1s;
+}
+.Resume__itemVisible .Resume__description li:nth-child(3) {
+  transition-delay: 1.5s;
+}
+.Resume__dot {
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: $offwhite;
+}
+.Resume__pdf {
+  top: 0;
+  left: 0;
+  background: transparent;
+  border: none;
+  display: block;
+  padding: 0;
+  color: $blue;
+  white-space: nowrap;
+
+  &:hover, &:focus {
+    outline: none;
+    color: darken($blue, 10%);
+    text-decoration: none;
+  }
+}
+
+.Resume__image {
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.Resume__imageVisible {
+  opacity: 0.9;
+}
+.Resume__image-wanderlog {
+  background-image: url('../images/wanderlog.png');
+}
+.Resume__image-youtube-ux {
+  background-image: url('../images/chika.png');
+}
+.Resume__image-youtube-eng {
+  background-image: url('../images/tastebuilder.png');
+}
+.Resume__image-penn {
+  background-image: url('../images/penn.jpg');
+  background-position: bottom;
+}
+.Resume__image-goldman-sachs {
+  background-image: url('../images/goldman.jpg');
+  background-position: bottom;
+}
+.Resume__image-chatsports {
+  background-image: url('../images/chatsports.png');
+  background-position: top;
+}
+
+.Resume__triangle {
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 100vw solid $primary;
+  border-bottom: 100vh solid transparent;
+}
+.Resume__triangleTransparent {
+  opacity: 0.97;
+  backdrop-filter: blur(1px);
+}
+@media only screen and (max-width: 768px) {
+  .Resume {
+    padding-top: 34px;
+    padding-left: 16px;
+    padding-right: 16px;
+    clip-path: unset;
+    margin-bottom: 110px;
+  }
+  .Resume__subheading {
+    line-height: 1.2;
+  }
+  .Resume__item {
+    padding-left: 28px;
+    font-size: 12px;
+  }
+  .Resume__position {
+    font-size: 12px;
+  }
+  .Resume__company {
+    font-size: 14px;
+  }
+  .Resume__description {
+    font-size: 12px;
+  }
+
+  .Resume__triangle {
+    border: none;
+    margin-bottom: 110px;
+    width: 100%;
+    height: unset;
+    background-color: $primary;
+  }
+  .Resume__triangleTransparent {
+    opacity: 1;
+    backdrop-filter: none;
+  }
+}
+
+.Resume__fade-enter {
+  opacity: 0;
+  transition: opacity 0.75s ease-in;
+}
+.Resume__fade-enter.Resume__fade-enter-active {
+  opacity: 1;
+}
+.Resume__fade-leave {
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+.Resume__fade-leave.Resume__fade-leave-active {
+  opacity: 0;
+}

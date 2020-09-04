@@ -1,0 +1,50 @@
+@import 'Styles.scss';
+
+.Title {
+  transition: letter-spacing 1.5s cubic-bezier(0, 0.33, 0.01, 0.93),
+    opacity 0.3s ease-in-out;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 250px;
+  margin-bottom: -0.2em;
+  white-space: nowrap;
+  color: $primary;
+  font-family: "Questrial", sans-serif;
+  width: 100%;
+  overflow: hidden;
+  z-index: 15;
+  line-height: initial;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: -0.06em;
+}
+@media only screen and (max-width: 768px) {
+  .Title {
+    font-size: 120px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Title {
+    font-size: 100px;
+  }
+}
+.Title__inverted {
+  color: $offwhite;
+}
+.Title__fade-enter {
+  opacity: 0;
+  letter-spacing: -0.08em;
+}
+.Title__fade-enter-active {
+  opacity: 1;
+  letter-spacing: -0.06em;
+}
+.Title__fade-leave {
+  opacity: 1;
+  letter-spacing: -0.06em;
+}
+.Title__fade-leave-active {
+  opacity: 0;
+  letter-spacing: -0.08em;
+}

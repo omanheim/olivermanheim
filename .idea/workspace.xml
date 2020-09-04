@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5408941e-bfc3-450e-ba09-d47eadada8f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/@types/global.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FontAwesome.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resume.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/About.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/MainPage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/NavBar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Resume.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Underline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/About.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/MainPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/NavBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/Resume.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/Title.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/Underline.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1gn4PbtNuOJ9WwTKe5mcYRgajxO" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/files" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/templates" />
+      <recent name="$PROJECT_DIR$/src/styles" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles" />
+      <recent name="$PROJECT_DIR$/src/templates" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5408941e-bfc3-450e-ba09-d47eadada8f5" name="Default Changelist" comment="" />
+      <created>1598736999494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598736999494</updated>
+      <workItem from="1598737001568" duration="390000" />
+      <workItem from="1598737419364" duration="3532000" />
+      <workItem from="1598747619149" duration="3130000" />
+      <workItem from="1598814589151" duration="4518000" />
+      <workItem from="1598826825323" duration="972000" />
+      <workItem from="1598828053612" duration="2687000" />
+      <workItem from="1598917013741" duration="13311000" />
+      <workItem from="1599005649603" duration="5151000" />
+      <workItem from="1599091517619" duration="7186000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="544" y="366" key="#VCS_History_Cache_Settings" timestamp="1598825498888">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="544" y="366" key="#VCS_History_Cache_Settings/0.0.1440.900@0.0.1440.900" timestamp="1598825498888" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1598826859409">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1598826859409" />
+    <state x="337" y="-834" width="798" height="588" key="find.popup" timestamp="1599095169446">
+      <screen x="-224" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="337" y="-834" width="798" height="588" key="find.popup/-224.-1080.1920.1080/0.0.1440.900@-224.-1080.1920.1080" timestamp="1599095169446" />
+    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1598815066697" />
+    <state x="289" y="-845" width="894" height="812" key="search.everywhere.popup" timestamp="1599153881794">
+      <screen x="-224" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="289" y="-845" width="894" height="812" key="search.everywhere.popup/-224.-1080.1920.1080/0.0.1440.900@-224.-1080.1920.1080" timestamp="1599153881794" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/-224.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1598894826497" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1598983177103" />
+  </component>
+</project>

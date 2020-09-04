@@ -1,0 +1,19 @@
+.Underline {
+  display: inline-block;
+  position: relative;
+  transition: max-width 0.4s ease-in-out;
+  max-width: 0px;
+  padding-bottom: 2px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  white-space: nowrap;
+
+  &:hover {
+    max-width: 500px;
+  }
+}
+.Underline__visible {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
