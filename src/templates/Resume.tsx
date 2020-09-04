@@ -169,7 +169,12 @@ export default class Resume extends React.PureComponent<Props, State> {
                       </div>
                       <div className="mt-3">
                         <Underline borderColor={blueDark} hoverOnly>
-                          <a className="Resume__pdf" href={pdf} target="_blank">
+                          <a
+                            className="Resume__pdf"
+                            href={pdf}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             open link
                           </a>
                         </Underline>

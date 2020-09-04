@@ -1,5 +1,4 @@
 import * as React from "react";
-import classNames from "classnames";
 import "../styles/MainPage.scss";
 import Home from "./Home";
 import NavBar, { Tab } from "./NavBar";

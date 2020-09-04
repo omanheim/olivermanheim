@@ -65,6 +65,7 @@ export default class About extends React.PureComponent<Props> {
               className="About__link"
               href="mailto:omanheim@gmail.com"
               target="_blank"
+              rel="noopener noreferrer"
             >
               email
             </a>{" "}
@@ -73,6 +74,7 @@ export default class About extends React.PureComponent<Props> {
               className="About__link"
               href="https://www.linkedin.com/in/omanheim/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn
             </a>
