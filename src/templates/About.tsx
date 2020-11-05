@@ -37,7 +37,7 @@ export default class About extends React.PureComponent<Props> {
             <div>Hi there!</div>
           </Underline>
           <div className="mt-3">
-            My name's Oliver Manheim. I'm a software developer with over 5 years
+            My name's Oliver Manheim. I'm a software developer with over 6 years
             of professional experience building delightful user experiences and
             launching fast-growing consumer products.
           </div>
@@ -49,7 +49,7 @@ export default class About extends React.PureComponent<Props> {
           </div>
           <div className="mt-3">
             I grew up in Evanston, IL, just north of Chicago, where I learned to
-            love the beach and hate the winter. I went on to study at Penn,
+            love the beach and dread the winter. I went on to study at Penn,
             where I played in the symphony orchestra, co-hosted a weekly radio
             show, and hunted out the best food trucks in Philly.
           </div>
